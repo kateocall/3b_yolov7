@@ -14,7 +14,7 @@ The weights file is too large for the repo and is available on shared google dri
 
 Paths for the above files (unavailable in repo) are written from the team shared Google drive. 
 
-Follow this Google Colab file: https://colab.research.google.com/drive/1-UW10Ql7Uoedc2ulrFvaMlL81ZTPLbMf#scrollTo=UfrwZffJjWqR
+Follow this Google Colab file: https://colab.research.google.com/drive/1-UW10Ql7Uoedc2ulrFvaMlL81ZTPLbMf?usp=drive_link
 
 
 ### Steps also outlined below:
