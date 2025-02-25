@@ -3,9 +3,9 @@
 # train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
 #train: /colon_data/polyps_small/images/train #path to training data
 
-train: /content/gdrive/MyDrive/Colab_Notebooks/Group_Project/polyp_people/mini_polyps_data/images/train #path to training data
-val: /content/gdrive/MyDrive/Colab_Notebooks/Group_Project/polyp_people/mini_polyps_data/images/valid #path to validation data
-test: /content/gdrive/MyDrive/Colab_Notebooks/Group_Project/polyp_people/mini_polyps_data/valid  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794, path to test data
+train: /home/rmhipmc/shared/mini_polyps_data/images/train #path to training data
+val: /home/rmhipmc/shared/mini_polyps_data/images/valid #path to validation data
+test: /home/rmhipmc/shared/mini_polyps_data/images/valid  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794, path to test data
 
 # number of classes
 nc: 1 #1 as just detecting polyp as below
