@@ -5,10 +5,10 @@
 DATASET_CONFIG="datasets_colon.yaml"          # Dataset config file with updated paths
 TRAIN_CONFIG="config_train_yolov7.yaml"         # Training configuration file
 HYP_FILE="data/hyp.scratch.custom.yaml"         # Hyperparameters file
-PRETRAINED_WEIGHTS="/path/to/yolov7_training.pt"  # Path to pretrained weights
+PRETRAINED_WEIGHTS="/home/rmhipmc/shared"  # Path to pretrained weights
 TRAIN_RUN_NAME="colon_run_1"                    # Name for the training run (update as needed)
 VAL_RUN_NAME="yolov7_colon_val_1"               # Name for the validation run
-SAVED_MODELS_DIR="/path/to/saved_models"        # Directory where you want to save the trained models
+SAVED_MODELS_DIR="/home/rmhipmc/shared"        # Directory where you want to save the trained models
 
 echo "Starting training..."
 python train.py --epochs 100 --device 0 --entity colon_coders --workers 8 --batch-size 32 \
