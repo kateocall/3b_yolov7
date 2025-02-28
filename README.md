@@ -62,4 +62,4 @@ Save model
 
 2. File paths for saved runs need to be updated. 
 
-3. Once requirements are installed via the docker (not sure how we do that yet!!!), the only terminal code we need to run is train and test model (steps 6 & 7 in Colab file). Other than file paths, we just need to remove the leading ! to run it in the terminal. 
+3. Once requirements are installed via the docker container, the only terminal code we need to run is train and test model (steps 6 & 7 in Colab file). Other than file paths, we just need to remove the leading ! to run it in the terminal. 
